@@ -1,0 +1,146 @@
+
+/* 全体の処理*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.float{
+	float: left;
+}
+
+.float-clear{
+	clear: both;
+}
+
+body{
+	background-color:#9999cc;
+}
+
+/* ヘッダ処理*/
+
+header{
+	background-color: #6666cc;
+	height: 100px;
+}
+
+header img{
+	margin: 10px;
+	float: left;
+}
+
+ul{
+	margin-top: 70px;
+}
+
+li{
+	width: 120px;
+	list-style: none;
+	text-align: center;
+	float: right;
+}
+
+main{
+	width: 1000px;
+	display: flex;
+	margin: 0 auto;
+}
+
+nav{
+	overflow: hidden;
+}
+
+a{
+	color: #fff;
+}
+
+/* 本文左側処理 */
+
+h1{
+	margin: 10px 0;
+	text-align: center;
+	color: #0000cd;
+	font-size: 80px;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.title{
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	font-size: 35px;
+	color: orange;
+	text-align: center;
+	margin-top: -30px;
+}
+
+.content{
+	background-color: #fff;
+	width: 100%;
+}
+
+.content img{
+	width: 300px;
+	margin: 20px;
+}
+
+.content p{
+	margin: 5px;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+
+/* 右側の処理 */
+.side{
+	background-color: #dcdcdc;
+}
+
+.side-content{
+	border-radius: 10px;
+	text-align: center;
+	margin: 5px;
+	background-color: #fff;
+}
+
+.side-content img{
+	border-radius: 50%;
+	margin: 10px;
+	display: inline-block;
+	width: 100px;
+	}
+
+.side h2{
+	color:  #0000cd;
+	text-align: center;
+	margin: 5px;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+
+.side p{
+	margin-top: 10px; 
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	text-align: center;
+}
+
+/*広告*/
+aside img{
+	margin: 5px;
+	width: 300px;
+}
+
+/*フッター*/
+footer{
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background-color: #6666cc;
+}
+
+footer p{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 15px;
+	color: #fff;
+	text-align: right;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
